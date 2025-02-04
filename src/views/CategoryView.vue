@@ -315,11 +315,12 @@ onMounted(() => {
 
 .mentors {
   margin-top: 30px;
-  text-align: center;
+
   &-title {
     font-size: 34px;
     font-weight: 500;
     margin-bottom: 25px;
+    text-align: center;
   }
 }
 .mentors-container {
@@ -364,6 +365,7 @@ onMounted(() => {
 }
 
 .mentor-overlay {
+  text-align: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -390,7 +392,6 @@ onMounted(() => {
 
 .mentor-detail {
   display: flex;
-  align-items: center;
   margin-bottom: 10px;
   color: #333;
 }

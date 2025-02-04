@@ -37,7 +37,7 @@
     <div class="container">
       <h3 class="category-title">Our Clubs</h3>
       <div class="categories">
-        <div class="category category-1">
+        <router-link to="/category/e-mentor" class="category category-1">
           <img src="@/assets/img/e-mentor.jpg" alt="" />
           <div class="category-info">
             <h3>E-Mentor</h3>
@@ -54,8 +54,8 @@
               </svg>
             </router-link>
           </div>
-        </div>
-        <div class="category category-2">
+        </router-link>
+        <router-link to="/category/no-exception" class="category category-2">
           <img src="@/assets/img/no_exception.jpg" alt="no_exception" />
           <div class="category-info">
             <h3>No exception</h3>
@@ -72,8 +72,8 @@
               </svg>
             </router-link>
           </div>
-        </div>
-        <div class="category category-3">
+        </router-link>
+        <router-link to="/category/eco-light" class="category category-3">
           <img src="@/assets/img/eco_light.jpg" alt="eco_light" />
           <div class="category-info">
             <h3>Eco Light</h3>
@@ -90,8 +90,8 @@
               </svg>
             </router-link>
           </div>
-        </div>
-        <div class="category category-4">
+        </router-link>
+        <router-link to="/category/senior-care" class="category category-4">
           <img src="@/assets/img/senior_care.jpg" alt="senior_care" />
           <div class="category-info">
             <h3>Senior Care</h3>
@@ -107,8 +107,8 @@
               </svg>
             </router-link>
           </div>
-        </div>
-        <div class="category category-5">
+        </router-link>
+        <router-link to="/category/more-to-give" class="category category-5">
           <img src="@/assets/img/more.jpg" alt="senior_care" />
           <div class="category-info">
             <h3>More To Give</h3>
@@ -125,7 +125,7 @@
               </svg>
             </router-link>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
     <div class="mission">
@@ -162,10 +162,10 @@
                   d="M0 216C0 149.7 53.7 96 120 96l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72zm256 0c0-66.3 53.7-120 120-120l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72z"
                 />
               </svg>
-              I am a master at chess and soccer, but my true aspiration is to
-              master taking meaningful actions where society needs me most. I am
-              confident that Endless Network can help make not only my dreams
-              but also the dreams of others come true.
+              People say I am a master at chess and soccer, but my true
+              aspiration is to master taking meaningful actions where society
+              needs me most. I am confident that Endless Network can help make
+              not only my dreams but also the dreams of others come true.
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path
                   d="M448 296c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72zm-256 0c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72z"
@@ -565,21 +565,25 @@
   border-radius: 16px;
   transition: 0.3s;
   padding: 24px;
+  text-decoration: none;
   &-title {
     font-size: 34px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
+    color: black;
   }
   &-info {
     padding: 15px;
     h3 {
       font-size: 22px;
       font-weight: 600;
+      color: black;
     }
     p {
       margin: 15px 0;
       line-height: 24px;
+      color: black;
     }
     a {
       text-decoration: none;

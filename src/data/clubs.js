@@ -8,7 +8,7 @@ export const clubsData = {
       {
         id: 1,
         name: "Rafiya Husenova",
-        image: "/src/assets/img/leader-ementor.jpg",
+        image: new URL("@/assets/img/leader-ementor.jpg", import.meta.url).href,
         age: 16,
         institution: "Navoi Presidential School ",
         score: "IELTS Band 8.0",
@@ -18,7 +18,7 @@ export const clubsData = {
       {
         id: 1,
         name: "Viktoriia Kaminska",
-        image: "/src/assets/img/mentor-1.jpg",
+        image: new URL("@/assets/img/mentor-1.jpg", import.meta.url).href,
         age: 19,
         institution: "Lviv Polytechnic National University",
         score: "C1",
@@ -27,7 +27,7 @@ export const clubsData = {
       {
         id: 2,
         name: "Vazira Egamberdiyeva",
-        image: "/src/assets/img/mentor-2.jpg",
+        image: new URL("@/assets/img/mentor-2.jpg", import.meta.url).href,
         age: 20,
         institution: "University of Minnesota,Twin Cities",
         score: "IELTS Band 8.0, SAT 1380",
@@ -35,8 +35,8 @@ export const clubsData = {
       },
       {
         id: 3,
-        name: "Vazira Egamberdiyeva",
-        image: "/src/assets/img/mentor-3.jpg",
+        name: "Bunyod Sattorov",
+        image: new URL("@/assets/img/mentor-3.jpg", import.meta.url).href,
         age: 19,
         institution: "The University of Sydney",
         score: "IELTS Band 7.0",
@@ -45,16 +45,16 @@ export const clubsData = {
       {
         id: 4,
         name: "Ma'suma Mahammadjonova",
-        image: "/src/assets/img/mentor-4.jpg",
+        image: new URL("@/assets/img/mentor-4.jpg", import.meta.url).href,
         age: 18,
-        institution: "New Uzbekistan University,Industrial management",
+        institution: "New Uzbekistan University",
         score: "IELTS Band 7.5, SAT 1490",
-        extra: "Two years of volunteering experience in teaching English.",
+        extra: "2 years of volunteering experience in teaching English.",
       },
       {
         id: 5,
         name: "Abduaziz Ramazonov",
-        image: "/src/assets/img/mentor-5.jpg",
+        image: new URL("@/assets/img/mentor-5.jpg", import.meta.url).href,
         age: 18,
         institution: "University of Minnesota,Twin Cities",
         score: "IELTS Band 7.5, EFSET C1",
@@ -63,7 +63,7 @@ export const clubsData = {
       {
         id: 6,
         name: "Madina Umarova",
-        image: "/src/assets/img/mentor-6.jpg",
+        image: new URL("@/assets/img/mentor-6.jpg", import.meta.url).href,
         age: 18,
         institution: "Tashkent Medical Academy",
         score: "IELTS Band 8.0",
@@ -72,11 +72,11 @@ export const clubsData = {
       {
         id: 7,
         name: "Nusratov Izzatulla",
-        image: "/src/assets/img/mentor-7.jpg",
+        image: new URL("@/assets/img/mentor-7.jpg", import.meta.url).href,
         age: 18,
         institution: "University of Birmingham",
         score: "IELTS Band 7.0, SAT 1440",
-        extra: "EYUF’ 2024",
+        extra: 'A scholar of "El-Yurt Umidi Foundation',
       },
     ],
   },
@@ -95,27 +95,45 @@ export const clubsData = {
         images: [
           {
             id: 1,
-            url: "/src/assets/img/no_exception march_2023/1.jpg",
+            url: new URL(
+              "@/assets/img/no_exception march_2023/1.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 2,
-            url: "/src/assets/img/no_exception march_2023/2.jpg",
+            url: new URL(
+              "@/assets/img/no_exception march_2023/2.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 3,
-            url: "/src/assets/img/no_exception march_2023/3.jpg",
+            url: new URL(
+              "@/assets/img/no_exception march_2023/3.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 4,
-            url: "/src/assets/img/no_exception march_2023/4.jpg",
+            url: new URL(
+              "@/assets/img/no_exception march_2023/4.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 5,
-            url: "/src/assets/img/no_exception march_2023/5.jpg",
+            url: new URL(
+              "@/assets/img/no_exception march_2023/5.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 6,
-            url: "/src/assets/img/no_exception march_2023/6.jpg",
+            url: new URL(
+              "@/assets/img/no_exception march_2023/6.jpg",
+              import.meta.url
+            ).href,
           },
         ],
       },
@@ -128,55 +146,94 @@ export const clubsData = {
         images: [
           {
             id: 1,
-            url: "/src/assets/img/no_exception november/1.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/1.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 2,
-            url: "/src/assets/img/no_exception november/2.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/2.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 3,
-            url: "/src/assets/img/no_exception november/3.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/3.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 4,
-            url: "/src/assets/img/no_exception november/4.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/4.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 5,
-            url: "/src/assets/img/no_exception november/5.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/5.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 6,
-            url: "/src/assets/img/no_exception november/6.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/6.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 7,
-            url: "/src/assets/img/no_exception november/7.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/7.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 8,
-            url: "/src/assets/img/no_exception november/8.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/8.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 9,
-            url: "/src/assets/img/no_exception november/9.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/9.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 10,
-            url: "/src/assets/img/no_exception november/10.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/10.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 11,
-            url: "/src/assets/img/no_exception november/11.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/11.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 12,
-            url: "/src/assets/img/no_exception november/12.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/12.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 13,
-            url: "/src/assets/img/no_exception november/13.JPG",
+            url: new URL(
+              "@/assets/img/no_exception november/13.JPG",
+              import.meta.url
+            ).href,
           },
         ],
       },
@@ -186,7 +243,8 @@ export const clubsData = {
       {
         id: 1,
         name: "Firdavs Xusenov",
-        image: "/src/assets/img/leader-noexception.JPG",
+        image: new URL("@/assets/img/leader-noexception.JPG", import.meta.url)
+          .href,
         age: 16,
         institution: "Navoi Presidential School",
         score: "IELTS Band 7.5",
@@ -209,79 +267,136 @@ export const clubsData = {
         images: [
           {
             id: 1,
-            url: "/src/assets/img/eco_light november/1.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/1.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 2,
-            url: "/src/assets/img/eco_light november/2.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/2.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 3,
-            url: "/src/assets/img/eco_light november/3.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/3.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 4,
-            url: "/src/assets/img/eco_light november/4.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/4.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 5,
-            url: "/src/assets/img/eco_light november/5.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/5.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 6,
-            url: "/src/assets/img/eco_light november/6.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/6.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 7,
-            url: "/src/assets/img/eco_light november/7.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/7.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 8,
-            url: "/src/assets/img/eco_light november/8.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/8.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 9,
-            url: "/src/assets/img/eco_light november/9.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/9.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 10,
-            url: "/src/assets/img/eco_light november/10.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/10.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 11,
-            url: "/src/assets/img/eco_light november/11.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/11.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 12,
-            url: "/src/assets/img/eco_light november/12.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/12.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 13,
-            url: "/src/assets/img/eco_light november/13.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/13.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 14,
-            url: "/src/assets/img/eco_light november/14.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/14.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 15,
-            url: "/src/assets/img/eco_light november/15.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/15.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 16,
-            url: "/src/assets/img/eco_light november/16.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/16.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 17,
-            url: "/src/assets/img/eco_light november/17.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/17.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 18,
-            url: "/src/assets/img/eco_light november/18.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/18.JPG",
+              import.meta.url
+            ).href,
           },
           {
             id: 19,
-            url: "/src/assets/img/eco_light november/19.JPG",
+            url: new URL(
+              "@/assets/img/eco_light november/19.JPG",
+              import.meta.url
+            ).href,
           },
         ],
       },
@@ -291,7 +406,8 @@ export const clubsData = {
       {
         id: 1,
         name: "Karimov Rustamjon",
-        image: "/src/assets/img/leader-ecolight-1.jpg",
+        image: new URL("@/assets/img/leader-ecolight-1.jpg", import.meta.url)
+          .href,
         age: 16,
         institution: "Navoi Presidential School",
         score: "IELTS Band 7.5",
@@ -300,7 +416,8 @@ export const clubsData = {
       {
         id: 2,
         name: "Sardor Shirinboyev",
-        image: "/src/assets/img/leader-ecolight-2.jpg",
+        image: new URL("@/assets/img/leader-ecolight-2.jpg", import.meta.url)
+          .href,
         age: 16,
         institution: "Navoi Presidential School",
         score: "IELTS Band 7.0",
@@ -323,99 +440,171 @@ export const clubsData = {
         images: [
           {
             id: 1,
-            url: "/src/assets/img/senior_care january_2024/1.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/1.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 2,
-            url: "/src/assets/img/senior_care january_2024/2.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/2.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 3,
-            url: "/src/assets/img/senior_care january_2024/3.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/3.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 4,
-            url: "/src/assets/img/senior_care january_2024/4.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/4.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 5,
-            url: "/src/assets/img/senior_care january_2024/5.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/5.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 6,
-            url: "/src/assets/img/senior_care january_2024/6.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/6.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 7,
-            url: "/src/assets/img/senior_care january_2024/7.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/7.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 8,
-            url: "/src/assets/img/senior_care january_2024/8.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/8.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 9,
-            url: "/src/assets/img/senior_care january_2024/9.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/9.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 10,
-            url: "/src/assets/img/senior_care january_2024/10.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/10.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 11,
-            url: "/src/assets/img/senior_care january_2024/11.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/11.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 12,
-            url: "/src/assets/img/senior_care january_2024/12.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/12.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 13,
-            url: "/src/assets/img/senior_care january_2024/13.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/13.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 14,
-            url: "/src/assets/img/senior_care january_2024/14.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/14.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 15,
-            url: "/src/assets/img/senior_care january_2024/15.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/15.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 16,
-            url: "/src/assets/img/senior_care january_2024/16.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/16.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 17,
-            url: "/src/assets/img/senior_care january_2024/17.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/17.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 18,
-            url: "/src/assets/img/senior_care january_2024/18.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/18.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 19,
-            url: "/src/assets/img/senior_care january_2024/19.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/19.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 20,
-            url: "/src/assets/img/senior_care january_2024/20.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/20.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 21,
-            url: "/src/assets/img/senior_care january_2024/21.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/21.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 22,
-            url: "/src/assets/img/senior_care january_2024/22.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/22.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 23,
-            url: "/src/assets/img/senior_care january_2024/23.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/23.jpg",
+              import.meta.url
+            ).href,
           },
           {
             id: 24,
-            url: "/src/assets/img/senior_care january_2024/24.jpg",
+            url: new URL(
+              "@/assets/img/senior_care january_2024/24.jpg",
+              import.meta.url
+            ).href,
           },
         ],
       },
@@ -425,7 +614,8 @@ export const clubsData = {
       {
         id: 1,
         name: "Kuchkaraliyev Muhammad Rizo Fuzayl",
-        image: "/src/assets/img/leader-seniorcare.jpg",
+        image: new URL("@/assets/img/leader-seniorcare.jpg", import.meta.url)
+          .href,
         age: 17,
         institution: "Navoi Presidential School",
         score: "IELTS Band 6.0",
@@ -444,7 +634,8 @@ export const clubsData = {
       {
         id: 1,
         name: "Shavkatullayev Muhammad",
-        image: "/src/assets/img/leader-moretogive-1.jpg",
+        image: new URL("@/assets/img/leader-moretogive-1.jpg", import.meta.url)
+          .href,
         age: 16,
         institution: "Navoi Presidential School",
         score: "IELTS Band 7.5",
@@ -453,7 +644,8 @@ export const clubsData = {
       {
         id: 2,
         name: "Dilnura Hamidova",
-        image: "/src/assets/img/leader-moretogive-2.png",
+        image: new URL("@/assets/img/leader-moretogive-2.png", import.meta.url)
+          .href,
         age: 16,
         institution: "Navoi Presidential School",
         score: "IELTS Band 7.0",
