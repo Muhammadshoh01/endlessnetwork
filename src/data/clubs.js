@@ -268,133 +268,133 @@ export const clubsData = {
           {
             id: 1,
             url: new URL(
-              "@/assets/img/eco_light november/1.JPG",
+              "@/assets/img/eco_light november/1.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 2,
             url: new URL(
-              "@/assets/img/eco_light november/2.JPG",
+              "@/assets/img/eco_light november/2.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 3,
             url: new URL(
-              "@/assets/img/eco_light november/3.JPG",
+              "@/assets/img/eco_light november/3.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 4,
             url: new URL(
-              "@/assets/img/eco_light november/4.JPG",
+              "@/assets/img/eco_light november/4.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 5,
             url: new URL(
-              "@/assets/img/eco_light november/5.JPG",
+              "@/assets/img/eco_light november/5.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 6,
             url: new URL(
-              "@/assets/img/eco_light november/6.JPG",
+              "@/assets/img/eco_light november/6.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 7,
             url: new URL(
-              "@/assets/img/eco_light november/7.JPG",
+              "@/assets/img/eco_light november/7.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 8,
             url: new URL(
-              "@/assets/img/eco_light november/8.JPG",
+              "@/assets/img/eco_light november/8.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 9,
             url: new URL(
-              "@/assets/img/eco_light november/9.JPG",
+              "@/assets/img/eco_light november/9.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 10,
             url: new URL(
-              "@/assets/img/eco_light november/10.JPG",
+              "@/assets/img/eco_light november/10.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 11,
             url: new URL(
-              "@/assets/img/eco_light november/11.JPG",
+              "@/assets/img/eco_light november/11.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 12,
             url: new URL(
-              "@/assets/img/eco_light november/12.JPG",
+              "@/assets/img/eco_light november/12.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 13,
             url: new URL(
-              "@/assets/img/eco_light november/13.JPG",
+              "@/assets/img/eco_light november/13.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 14,
             url: new URL(
-              "@/assets/img/eco_light november/14.JPG",
+              "@/assets/img/eco_light november/14.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 15,
             url: new URL(
-              "@/assets/img/eco_light november/15.JPG",
+              "@/assets/img/eco_light november/15.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 16,
             url: new URL(
-              "@/assets/img/eco_light november/16.JPG",
+              "@/assets/img/eco_light november/16.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 17,
             url: new URL(
-              "@/assets/img/eco_light november/17.JPG",
+              "@/assets/img/eco_light november/17.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 18,
             url: new URL(
-              "@/assets/img/eco_light november/18.JPG",
+              "@/assets/img/eco_light november/18.jpg",
               import.meta.url
             ).href,
           },
           {
             id: 19,
             url: new URL(
-              "@/assets/img/eco_light november/19.JPG",
+              "@/assets/img/eco_light november/19.jpg",
               import.meta.url
             ).href,
           },
