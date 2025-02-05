@@ -76,7 +76,7 @@ export const clubsData = {
         age: 18,
         institution: "University of Birmingham",
         score: "IELTS Band 7.0, SAT 1440",
-        extra: 'A scholar of "El-Yurt Umidi Foundation',
+        extra: 'A scholar of "El-Yurt Umidi" Foundation',
       },
     ],
   },
