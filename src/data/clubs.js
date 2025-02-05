@@ -22,7 +22,7 @@ export const clubsData = {
         age: 19,
         institution: "Lviv Polytechnic National University",
         score: "C1",
-        extra: "Linguistic education",
+        extra: "Organizer of Speaking Club at University",
       },
       {
         id: 2,
