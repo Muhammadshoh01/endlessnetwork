@@ -33,7 +33,9 @@
           </div>
         </div>
       </div>
+      <div class="hero-image"></div>
     </div>
+
     <div class="container">
       <h3 class="category-title">Our Clubs</h3>
       <div class="categories">
@@ -143,13 +145,15 @@
         </div>
       </div>
     </div>
-    <div class="about_us" id="about_us">
-      <h3>About Us</h3>
-      <p>
-        The Endless Network was founded in 2023 by three Presidential School
-        students with a shared vision of empowering communities and fostering
-        impactful change.
-      </p>
+    <div class="container">
+      <div class="about_us" id="about_us">
+        <h3>About Us</h3>
+        <p>
+          The Endless Network was founded in 2023 by three Presidential School
+          students with a shared vision of empowering communities and fostering
+          impactful change.
+        </p>
+      </div>
     </div>
     <div class="container">
       <div class="founders">
@@ -552,7 +556,7 @@
   // align-items: center;
   // justify-content: space-between;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: auto auto;
   gap: 30px;
 }
@@ -641,7 +645,7 @@
 }
 .founders {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   row-gap: 60px;
   margin-top: 50px;
@@ -727,6 +731,124 @@
     color: #0060ff;
     margin-top: 15px;
     display: inline-block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    &-content {
+      max-width: 800px;
+      gap: 25px;
+    }
+    &-title {
+      align-items: flex-end;
+      .lightning {
+        width: 40px;
+      }
+      .line {
+        left: -25px;
+        top: -35px;
+        width: 35px;
+        height: 30px;
+      }
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h3 {
+      font-size: 26px;
+      line-height: 40px;
+    }
+  }
+  .support {
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .hero {
+    background-image: none;
+    height: auto;
+    h1 {
+      font-size: 26px;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 35px;
+    }
+    p {
+      font-size: 14px;
+    }
+    &-title {
+      align-items: center;
+      &.line {
+        left: -20px;
+        top: -30px;
+        width: 25px;
+        height: 30px;
+      }
+    }
+
+    &-content {
+      position: relative;
+      top: unset;
+      left: unset;
+      transform: translate(0, 0);
+      width: auto;
+      margin: 25px auto;
+    }
+    &-image {
+      background-image: url(/src/assets/img/main.jpg);
+      background-blend-mode: multiply;
+      background-color: rgba(0, 0, 0, 0.6);
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+    }
+  }
+  .category {
+    &-title {
+      margin-top: 120px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .hero {
+    &-title {
+      padding: 10px;
+      .line {
+        display: none;
+      }
+      .lightning-icon {
+        display: none;
+      }
+    }
+    &-image {
+      height: 377px;
+    }
+    &-join,
+    &-about {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .category {
+    &-title {
+      margin-top: 30px;
+      // font-size: 25px;
+    }
   }
 }
 </style>

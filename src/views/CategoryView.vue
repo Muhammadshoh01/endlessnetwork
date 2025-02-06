@@ -13,7 +13,14 @@
           :key="leader.id"
         >
           <div class="leader-info">
-            <img :src="leader.image" class="leader-image" alt="leader image" />
+            <img
+              :src="leader.image"
+              :class="{
+                top: selectedClub.id == 'more-to-give' && leader.id == 1,
+              }"
+              class="leader-image"
+              alt="leader image"
+            />
           </div>
           <div class="leader-data">
             <h3 class="leader-name">{{ leader.name }}</h3>
@@ -166,18 +173,26 @@ onMounted(() => {
     margin-top: 20px;
   }
   .leader-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: center;
   }
   .leader {
-    display: flex;
+    // display: flex;
     position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
     &-image {
-      width: 360px;
+      width: 100%;
       height: 484px;
       object-fit: cover;
+    }
+    .top {
+      object-position: top;
     }
     &-data {
       background: white;
@@ -413,5 +428,38 @@ onMounted(() => {
 
 .icon.star {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>');
+}
+
+@media (max-width: 650px) {
+  .mission {
+    margin-top: 25px;
+    text-align: center;
+    &-title {
+      font-size: 28px;
+      font-weight: 500;
+    }
+    &-info {
+      line-height: 28px;
+      font-size: 16px;
+      width: 95%;
+    }
+  }
+  .leaders {
+    margin-top: 30px;
+    text-align: center;
+    &-title {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  }
+  .mentors {
+    &-title {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
 }
 </style>
