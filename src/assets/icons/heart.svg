@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Upper Hand -->
+  <path d="M50 40 Q90 10, 130 40" fill="none" stroke="black" stroke-width="10" stroke-linecap="round"/>
+  <!-- Lower Hand -->
+  <path d="M50 160 Q90 190, 130 160" fill="none" stroke="black" stroke-width="10" stroke-linecap="round"/>
+  <!-- Heart -->
+  <path d="M100 100 Q120 70, 140 100 Q160 70, 180 100 Q160 140, 140 160 Q120 140, 100 100 Z" fill="black"/>
+</svg>

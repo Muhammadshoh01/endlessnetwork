@@ -4,13 +4,9 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-title">
-            <img src="@/assets/icons/line.svg" class="line" alt="" />
+            <!-- <img src="@/assets/icons/line.svg" class="line" alt="" /> -->
             <div class="lightning-icon">
-              <img
-                src="@/assets/icons/lightning.svg"
-                class="lightning"
-                alt=""
-              />
+              <img src="@/assets/img/heart.png" class="lightning" alt="" />
             </div>
             <h1>Endless Possibilities, Endless Impact</h1>
           </div>
@@ -462,6 +458,7 @@
   background-color: rgba(0, 0, 0, 0.6);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   &-content {
     text-align: center;
@@ -499,6 +496,11 @@
       position: absolute;
       left: -28px;
       top: -37px;
+    }
+    .lightning {
+      width: 50px;
+      height: 50px;
+      // color: red;
     }
   }
   &-buttons {
@@ -743,7 +745,8 @@
     &-title {
       align-items: flex-end;
       .lightning {
-        width: 40px;
+        width: 35px;
+        height: 35px;
       }
       .line {
         left: -25px;
