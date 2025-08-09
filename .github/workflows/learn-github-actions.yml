@@ -11,4 +11,5 @@ jobs:
                   node-version: "20"
             - run: npm install -g bats
             - run: bats -v
+            - run: npm install
             - run: VITE_SUPER_SECRET=${{ vars.VITE_SUPER_SECRET }} npm run build
