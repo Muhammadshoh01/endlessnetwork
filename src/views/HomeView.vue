@@ -424,7 +424,9 @@
     </div>
   </main>
 </template>
-<script setup></script>
+<script setup>
+console.log(import.meta.env.VITE_SUPER_SECRET)
+</script>
 <style lang="scss" scoped>
 .header {
   display: flex;
