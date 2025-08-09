@@ -425,7 +425,7 @@
   </main>
 </template>
 <script setup>
-console.log(import.meta.env.VITE_SUPER_SECRET)
+console.log('var',import.meta.env.VITE_SUPER_SECRET)
 </script>
 <style lang="scss" scoped>
 .header {
